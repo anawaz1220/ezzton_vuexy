@@ -1,17 +1,18 @@
 import { fileURLToPath } from 'node:url'
 import vuetify from 'vite-plugin-vuetify'
+// import logo from "@/assets/images/favicon.ico"
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
     head: {
-      titleTemplate: '%s - NuxtJS Admin Template',
-      title: 'Vuexy',
+      titleTemplate: '%s - EZzton',
+      title: 'EZzton',
 
       link: [{
         rel: 'icon',
         type: 'image/x-icon',
-        href: '/favicon.ico',
+        href: '@/assets/images/favicon.ico',
       }],
     },
   },

@@ -5,6 +5,12 @@ export default [
     icon: { icon: 'tabler-smart-home' },
   },
   {
+    title: 'SIGN UP',
+    to: { name: 'signup' },
+    // icon: { icon: 'tabler-smart-home' },
+  },
+
+  {
     title: 'CLIENTS',
     to: { name: 'clients' },
     icon: { icon: 'tabler-user' },
