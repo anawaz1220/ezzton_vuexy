@@ -14,6 +14,7 @@
     :items="items"  
     style="inline-size: 7rem;"
     
+    
   />
     </span >
     <!-- <div > -->
